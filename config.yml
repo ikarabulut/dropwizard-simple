@@ -1,4 +1,2 @@
-logging:
-  level: INFO
-  loggers:
-    com.ikarabulut.dropwizard: DEBUG
+template: Hello, %s!
+defaultName: Stranger
