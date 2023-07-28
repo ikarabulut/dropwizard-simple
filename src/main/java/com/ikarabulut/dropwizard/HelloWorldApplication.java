@@ -2,9 +2,9 @@ package com.ikarabulut.dropwizard;
 
 import com.ikarabulut.dropwizard.health.TemplateHealthCheck;
 import com.ikarabulut.dropwizard.resources.HelloWorldResource;
-import io.dropwizard.Application;
-import io.dropwizard.setup.Bootstrap;
-import io.dropwizard.setup.Environment;
+import io.dropwizard.core.Application;
+import io.dropwizard.core.setup.Bootstrap;
+import io.dropwizard.core.setup.Environment;
 
 public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
     public static void main(String[] args) throws Exception {
